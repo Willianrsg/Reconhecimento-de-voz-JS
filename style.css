@@ -1,0 +1,31 @@
+#start-button, #stopButton {
+    background-color: blue; /* Cor do botão */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Arredondamento das bordas */
+    font-size: 1.2em; /* Tamanho da fonte */
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+#stopButton {
+    background-color: red; /* Cor de parar */
+}
+
+.output {
+    border: 1px solid gray; /* Borda */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 10px; /* Espaçamento acima da div */
+}
+
+
+#stopButton.disabled {
+    background-color: #ddd; /* Cor do botão desabilitado */
+    color: #333; /* Cor do texto */
+    cursor: not-allowed; /* cursor */
+  }
+  
+  #start-button:disabled {
+    background-color: #ddd; /* Light gray */
+    color: #333; /* Dark gray */
+    cursor: not-allowed;
+  }

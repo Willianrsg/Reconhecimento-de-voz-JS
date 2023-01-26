@@ -8,12 +8,25 @@ if ("webkitSpeechRecognition" in window){
     recognition.interimResults = true;
 
     var startButton = document.getElementById("start-button");
-
+    var stopButton = document.getElementById("stopButton");
     var output = document.getElementsByClassName("output")[0];
 
-    startButton.addEventListener('click', function(){
-        recognition.start();
-    });
+    if(startButton){
+        startButton.addEventListener('click', function(){
+            recognition.start();
+            startButton.disabled = true;
+            stopButton.disabled = false;
+        });
+    }
+
+    if (stopButton) {
+        stopButton.addEventListener('click', function() {
+            recognition.stop();
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            //stopButton.classList.add("disabled");
+        });
+    }
 
     recognition.onresult = function(event){
         var transcript = "";
