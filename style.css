@@ -1,3 +1,23 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-family: cursive;
+    
+    
+}
+
+.container{
+    background-color: aliceblue;
+    border-style: groove;
+    border-width: medium;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
 #start-button, #stopButton {
     background-color: blue; /* Cor do botão */
     color: white; /* Cor do texto */
