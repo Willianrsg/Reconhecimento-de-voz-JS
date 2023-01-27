@@ -1,0 +1,104 @@
+footer {
+    background: linear-gradient(90deg, #020236 0%, #090979 35%, #00d4ff 100%);
+    margin: 0;
+    font-family: cursive;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    }
+    
+.footer-col h3 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.footer-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+   font-size: 0.9em;
+}
+
+.footer-col a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+footer .text-center {
+    margin-top: 20px;
+}
+
+#about-me {
+    padding: 20px;
+}
+
+#about-me .h1-footer {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.footer-col {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+    
+li {
+     list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-col a:hover {
+    color: #fff; /* Cor de hover */
+}
+    
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    padding-top: 10px;
+    border-top: 1px solid #fff; /* Adicionei uma borda */
+}
+    
+@media (max-width: 768px) {
+    .footer-col {
+        flex: 1 0 100%;
+    }
+    
+    .footer-col h3 {
+        font-size: 1em;
+    }
+    
+    .footer-col li {
+        font-size: 0.8em;
+    }
+    
+    .copyright {
+        font-size: 0.7em;
+    }
+}

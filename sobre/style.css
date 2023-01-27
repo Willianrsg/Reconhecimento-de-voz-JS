@@ -1,0 +1,48 @@
+ @import url(../footer/style.css);
+ /* Estilos gerais */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* Estilo do cabeçalho */
+  .h1-about {
+    text-align: center;
+    background: linear-gradient(90deg, #020236 0%, #090979 35%, #00d4ff 100%);
+    color: white;
+    padding: 20px;
+  }
+  /* Estilo dos parágrafos */
+  .p {
+    margin: 20px;
+    text-align: justify;
+  }
+  /* Estilo das listas */
+  .ul {
+    margin: 20px;
+    padding: 0;
+  }
+  .li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  #footer-container{
+    position: relative;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 600px) {
+    .h1-about {
+      font-size: 20px;
+    }
+    .p {
+      font-size: 14px;
+    }
+    .li {
+      font-size: 12px;
+    }
+    #footer-container {
+      font-size: 12px;
+    }
+  }
