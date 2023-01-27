@@ -1,0 +1,43 @@
+@import url(../footer/style.css);
+
+.body {
+  background-color: #fff;
+}
+
+.localizacao {
+  background-color: aqua;
+  /*border: groove medium 30px; Unifiquei as propriedades de borda */
+  padding: 121px;
+  border-radius: 20px;
+  margin-top: 1px;
+}
+
+.h1-about {
+  text-align: center;
+  background: linear-gradient(90deg, #020236 0%, #090979 35%, #00d4ff 100%);
+  color: white;
+  padding: 20px;
+}
+
+#footer-container {
+  display: flex;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+  .h1-about {
+    font-size: 20px;
+  }
+
+  .p {
+    font-size: 14px;
+  }
+
+  .li {
+    font-size: 12px;
+  }
+
+  #footer-container {
+    font-size: 12px;
+  }
+}

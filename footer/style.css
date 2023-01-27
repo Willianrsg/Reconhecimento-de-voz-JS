@@ -29,10 +29,20 @@ footer {
 }
 
 .footer-col a {
-    color: #fff;
+    color: #fff ;
     text-decoration: none;
     transition: color 0.2s ease-in;
 }
+
+a{
+    color: #fff !important;
+}
+
+a:hover {
+    color: #fff !important; /* Cor branca */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra com 1px de largura, 1px de altura, 2px de deslocamento e 50% de opacidade */
+}
+
 
 footer .text-center {
     margin-top: 20px;
@@ -74,7 +84,7 @@ li {
 }
 
 .footer-col a:hover {
-    color: #fff; /* Cor de hover */
+    color: #fff !important; /* Cor de hover */
 }
     
 .copyright {
